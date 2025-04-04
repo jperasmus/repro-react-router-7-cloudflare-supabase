@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
+import "@supabase/supabase-js";
 
 export function meta({}: Route.MetaArgs) {
   return [
